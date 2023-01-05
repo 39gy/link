@@ -1,0 +1,35 @@
+- name: Favorites
+  tag: favorite
+  icon: star
+
+- name: Dev
+  tag: dev
+  icon: terminal
+
+- name: Book
+  tag: book
+  icon: book
+
+- name: Image
+  tag: image
+  icon: image
+
+- name: Video
+  tag: video
+  icon: video
+
+- name: Music
+  tag: music
+  icon: headphones
+
+- name: SNS
+  tag: sns
+  icon: comments
+
+- name: Mail
+  tag: mail
+  icon: envelope
+
+- name: Patron
+  tag: patron
+  icon: comment-dollar

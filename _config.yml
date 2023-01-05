@@ -1,0 +1,12 @@
+encoding: utf-8
+exclude: ["Gemfile", "Gemfile.lock", "CNAME", "LICENSE", "README.md"]
+sass:
+  sass_dir: _sass
+  style: compressed
+
+title: "Speed Dial"
+url: "https://link.39.gy"
+icon: "img/logo.png"
+
+author:
+  name: "ress"

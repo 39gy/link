@@ -1,0 +1,39 @@
+---
+---
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<title>{{ site.title }}</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+	<link rel="apple-touch-icon" href="{{ site.icon }}">
+	<link rel="icon" href="{{ site.icon }}">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c">
+	<style>{% capture styles %}{% include css/style.scss %}{% endcapture %}{{ styles | scssify }}</style>
+</head>
+<body>
+	<nav class="nav-panel">
+		<ul>
+			<li class="tag"><a data-tooltip="All" href="#"><i class="icon fa-solid fa-th" aria-hidden="true"></i></a></li>
+			{% for nav in site.data.nav %}
+			<li class="tag"><a data-tooltip="{{ nav.name }}" href="#{{ nav.tag }}"><i class="icon fa-solid fa-{{ nav.icon }}" aria-hidden="true"></i></a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+	<main class="container">
+		<div class="tile-container">
+			{% for tile in site.data.tiles %}
+			<a class="tile tile-link" href="{{ tile.url }}" data-groups='{{ tile.tags | join: "," }}' target="_blank">
+				<div class="tile-box" data-title='{{ tile.name }}' data-url='{{ tile.url }}' {% if tile.img %}data-img='{{ tile.img | relative_url }}' {% endif %}{% if tile.bg_color or tile.txt_color %}{% if tile.bg_color %}data-bg-color='{{ tile.bg_color }}' {% endif %}{% if tile.txt_color %}data-txt-color='{{ tile.txt_color }}' {% endif %}style='{% if tile.bg_color %}background-color:{{ tile.bg_color }}; {% endif %}{% if tile.txt_color %}color:{{ tile.txt_color }}{% endif %}'{% endif %}>
+					{% if tile.img %}<img class="logo" src="{{ tile.img | relative_url }}">{% endif %}
+				</div>
+				<div class="tile-title">{{ tile.name }}</div>
+			</a>
+			{% endfor %}
+		</div>
+	</main>
+	<script src="https://kit.fontawesome.com/0a0b953e7e.js" crossorigin="anonymous"></script>
+	<script>{% include js/slate.js %}</script>
+</body>
+</html>

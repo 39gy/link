@@ -1,0 +1,126 @@
+# Dev
+- name: GitHub
+  url: 'https://github.com/'
+  img: 'img/github.png'
+  tags:
+    - dev
+
+- name: AWS
+  url: 'https://console.aws.amazon.com/console/home?region=ap-northeast-1'
+  img: 'img/aws.png'
+  tags:
+    - dev
+
+- name: GCP
+  url: 'https://console.cloud.google.com/home/dashboard'
+  img: 'img/gcp.png'
+  tags:
+    - dev
+
+- name: firebase
+  url: 'http://console.firebase.google.com/'
+  img: 'img/firebase.svg'
+  tags:
+    - dev
+
+# Book
+- name: なろう
+  url: 'https://syosetu.com/user/top/'
+  tags:
+    - book
+
+# Image
+- name: Pixiv
+  url: 'https://www.pixiv.net/'
+  img: 'img/pixiv.svg'
+  tags:
+    - image
+
+- name: fanbox
+  url: 'https://www.pixiv.net/fanbox'
+  img: 'img/pixivfanbox.png'
+  tags:
+    - image
+    - patron
+
+- name: cloudinary
+  url: 'https://cloudinary.com/console'
+  img: 'img/cloudinary.png'
+  tags:
+    - dev
+    - image
+
+# Video
+- name: YouTube
+  url: 'https://youtube.com'
+  img: 'img/youtube.svg'
+  bg_color: '#ffffff'
+  txt_color: '#cd201f'
+  tags:
+    - video
+    - music
+
+# Music
+- name: SoundCloud
+  url: 'https://soundcloud.com'
+  img: 'img/soundcloud.svg'
+  bg_color: '#ffffff'
+  txt_color: '#ff3300'
+  tags:
+    - music
+
+# SNS
+- name: ふみ
+  url: 'https://syosetu.social/'
+  img: 'img/mastodon.svg'
+  tags:
+    - sns
+    - book
+
+- name: pawoo
+  url: 'https://pawoo.net/'
+  img: 'img/pawoo.png'
+  tags:
+    - image
+    - sns
+
+- name: TweetDeck
+  url: 'https://tweetdeck.twitter.com/'
+  img: 'img/twitter.svg'
+  bg_color: '#1da1f2'
+  txt_color: '#f5f8fa'
+  tags:
+    - sns
+
+# Mail
+- name: Gmail
+  url: 'https://gmail.com/'
+  img: 'img/gmail.svg'
+  tags:
+    - mail
+
+- name: Tutanota
+  url: 'https://mail.tutanota.com/'
+  img: 'img/tutanota.jpg'
+  tags:
+    - mail
+
+# Patron
+- name: Fantia
+  url: 'https://fantia.jp/'
+  img: 'img/fantia.png'
+  tags:
+    - patron
+
+# etc
+- name: Qiita
+  url: 'https://qiita.com/'
+  img: 'img/qiita.png'
+  tags:
+    - dev
+
+- name: Scrapbox
+  url: 'https://scrapbox.io/'
+  img: 'img/scrapbox.png'
+  tags:
+    - dev
