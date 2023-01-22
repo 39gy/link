@@ -1,6 +1,6 @@
-# Dev
+# Cloud
 - name: GitHub
-  url: 'https://github.com/'
+  url: 'https://github.com'
   img: 'img/github.png'
   tags:
     - dev
@@ -18,7 +18,7 @@
     - dev
 
 - name: firebase
-  url: 'http://console.firebase.google.com/'
+  url: 'http://console.firebase.google.com'
   img: 'img/firebase.svg'
   tags:
     - dev
@@ -26,18 +26,19 @@
 # Book
 - name: なろう
   url: 'https://syosetu.com/user/top/'
+  img: 'img/narou.png'
   tags:
     - book
 
 # Image
 - name: Pixiv
-  url: 'https://www.pixiv.net/'
+  url: 'https://www.pixiv.net'
   img: 'img/pixiv.svg'
   tags:
     - image
 
 - name: fanbox
-  url: 'https://www.pixiv.net/fanbox'
+  url: 'https://www.fanbox.cc'
   img: 'img/pixivfanbox.png'
   tags:
     - image
@@ -52,7 +53,7 @@
 
 # Video
 - name: YouTube
-  url: 'https://youtube.com'
+  url: 'https://www.youtube.com'
   img: 'img/youtube.svg'
   bg_color: '#ffffff'
   txt_color: '#cd201f'
@@ -70,57 +71,48 @@
     - music
 
 # SNS
-- name: ふみ
-  url: 'https://syosetu.social/'
-  img: 'img/mastodon.svg'
-  tags:
-    - sns
-    - book
-
-- name: pawoo
-  url: 'https://pawoo.net/'
-  img: 'img/pawoo.png'
-  tags:
-    - image
-    - sns
-
 - name: TweetDeck
-  url: 'https://tweetdeck.twitter.com/'
+  url: 'https://tweetdeck.twitter.com'
   img: 'img/twitter.svg'
   bg_color: '#1da1f2'
   txt_color: '#f5f8fa'
   tags:
     - sns
 
+- name: Pawoo
+  url: 'https://pawoo.net'
+  img: 'img/mastodon.svg'
+  tags:
+    - sns
+
 # Mail
 - name: Gmail
-  url: 'https://gmail.com/'
+  url: 'https://gmail.com'
   img: 'img/gmail.svg'
-  tags:
-    - mail
-
-- name: Tutanota
-  url: 'https://mail.tutanota.com/'
-  img: 'img/tutanota.jpg'
   tags:
     - mail
 
 # Patron
 - name: Fantia
-  url: 'https://fantia.jp/'
+  url: 'https://fantia.jp'
   img: 'img/fantia.png'
   tags:
     - patron
 
-# etc
+# doc
 - name: Qiita
-  url: 'https://qiita.com/'
+  url: 'https://qiita.com'
   img: 'img/qiita.png'
   tags:
     - dev
 
+- name: Zenn.dev
+  url: 'https://zenn.dev'
+  tags:
+    - dev
+
 - name: Scrapbox
-  url: 'https://scrapbox.io/'
+  url: 'https://scrapbox.io'
   img: 'img/scrapbox.png'
   tags:
     - dev
