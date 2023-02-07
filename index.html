@@ -1,16 +1,23 @@
 ---
+layout: null
 ---
 <html>
 <head>
-	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-	<title>{{ site.title }}</title>
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
-	<link rel="apple-touch-icon" href="{{ site.icon }}">
-	<link rel="icon" href="{{ site.icon }}">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css" integrity="sha512-6mc0R607di/biCutMUtU9K7NtNewiGQzrvWX4bWTeqmljZdJrwYvKJtnhgR+Ryvj+NRJ8+NnnCM/biGqMe/iRA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	<style>{% capture styles %}{% include css/style.scss %}{% endcapture %}{{ styles | scssify }}</style>
+
+	<title>{{ site.title }}</title>
+
+	<link rel="icon" href="{{ site.icon }}">
 </head>
 <body>
 	<nav class="nav-panel">
@@ -33,7 +40,6 @@
 			{% endfor %}
 		</div>
 	</main>
-	<script src="https://kit.fontawesome.com/0a0b953e7e.js" crossorigin="anonymous"></script>
 	<script>{% include js/slate.js %}</script>
 </body>
 </html>
