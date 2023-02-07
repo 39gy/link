@@ -88,7 +88,7 @@
 
 - name: Notion
   url: 'https://www.notion.so'
-  img: 'notion/notion.png'
+  img: 'img/notion.png'
   tags:
     - docs
 
@@ -133,6 +133,7 @@
 
 - name: Zenn.dev
   url: 'https://zenn.dev'
+  img: 'img/zenn.png'
   tags:
     - dev
 
