@@ -1,75 +1,3 @@
-# Cloud
-- name: GitHub
-  url: 'https://github.com'
-  img: 'img/github.png'
-  tags:
-    - dev
-
-- name: AWS
-  url: 'https://console.aws.amazon.com/console/home?region=ap-northeast-1'
-  img: 'img/aws.png'
-  tags:
-    - dev
-
-- name: GCP
-  url: 'https://console.cloud.google.com/home/dashboard'
-  img: 'img/gcp.png'
-  tags:
-    - dev
-
-- name: Firebase
-  url: 'http://console.firebase.google.com'
-  img: 'img/firebase.svg'
-  tags:
-    - dev
-
-# Book
-- name: なろう
-  url: 'https://syosetu.com/user/top/'
-  img: 'img/narou.png'
-  tags:
-    - book
-
-# Image
-- name: Pixiv
-  url: 'https://www.pixiv.net'
-  img: 'img/pixiv.svg'
-  tags:
-    - image
-
-- name: FANBOX
-  url: 'https://www.fanbox.cc'
-  img: 'img/pixivfanbox.png'
-  tags:
-    - image
-    - patron
-
-- name: Cloudinary
-  url: 'https://cloudinary.com/console'
-  img: 'img/cloudinary.png'
-  tags:
-    - dev
-    - image
-
-# Video
-- name: YouTube
-  url: 'https://www.youtube.com'
-  img: 'img/youtube.svg'
-  bg_color: '#ffffff'
-  txt_color: '#cd201f'
-  tags:
-    - video
-    - music
-
-# Music
-- name: SoundCloud
-  url: 'https://soundcloud.com'
-  img: 'img/soundcloud.svg'
-  bg_color: '#ffffff'
-  txt_color: '#ff3300'
-  tags:
-    - music
-
 # SNS
 - name: TweetDeck
   url: 'https://tweetdeck.twitter.com'
@@ -92,14 +20,100 @@
   tags:
     - mail
 
-# Patron
-- name: ファンティア
-  url: 'https://fantia.jp'
-  img: 'img/fantia.png'
+# Book
+- name: なろう
+  url: 'https://syosetu.com/user/top/'
+  img: 'img/narou.png'
   tags:
-    - patron
+    - book
 
-# doc
+- name: BOOK☆WALKER
+  url: 'https://bookwalker.jp/'
+  tags:
+    - book
+
+# Image
+- name: Pixiv
+  url: 'https://www.pixiv.net'
+  img: 'img/pixiv.svg'
+  tags:
+    - image
+
+- name: FANBOX
+  url: 'https://www.fanbox.cc'
+  img: 'img/pixivfanbox.png'
+  tags:
+    - image
+
+# Video
+- name: YouTube
+  url: 'https://www.youtube.com'
+  img: 'img/youtube.svg'
+  bg_color: '#ffffff'
+  txt_color: '#cd201f'
+  tags:
+    - video
+    - music
+
+# Music
+- name: SoundCloud
+  url: 'https://soundcloud.com'
+  img: 'img/soundcloud.svg'
+  bg_color: '#ffffff'
+  txt_color: '#ff3300'
+  tags:
+    - music
+
+# Docs
+- name: Scrapbox
+  url: 'https://scrapbox.io'
+  img: 'img/scrapbox.png'
+  tags:
+    - docs
+
+- name: HackMD
+  url: 'https://hackmd.io'
+  tags:
+    - docs
+
+- name: Notion
+  url: 'https://www.notion.so'
+  tags:
+    - docs
+
+# Cloud Service
+- name: AWS
+  url: 'https://console.aws.amazon.com/console/home?region=ap-northeast-1'
+  img: 'img/aws.png'
+  tags:
+    - cloud
+
+- name: GCP
+  url: 'https://console.cloud.google.com/home/dashboard'
+  img: 'img/gcp.png'
+  tags:
+    - cloud
+
+- name: Firebase
+  url: 'http://console.firebase.google.com'
+  img: 'img/firebase.svg'
+  tags:
+    - cloud
+
+# Dev
+- name: GitHub
+  url: 'https://github.com'
+  img: 'img/github.png'
+  tags:
+    - dev
+
+- name: Cloudinary
+  url: 'https://cloudinary.com/console'
+  img: 'img/cloudinary.png'
+  tags:
+    - dev
+    - image
+
 - name: Qiita
   url: 'https://qiita.com'
   img: 'img/qiita.png'
@@ -111,8 +125,3 @@
   tags:
     - dev
 
-- name: Scrapbox
-  url: 'https://scrapbox.io'
-  img: 'img/scrapbox.png'
-  tags:
-    - dev

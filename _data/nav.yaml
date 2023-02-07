@@ -2,9 +2,13 @@
   tag: favorite
   icon: star
 
-- name: Dev
-  tag: dev
-  icon: terminal
+- name: SNS
+  tag: sns
+  icon: comments
+
+- name: Mail
+  tag: mail
+  icon: envelope
 
 - name: Book
   tag: book
@@ -22,14 +26,16 @@
   tag: music
   icon: headphones
 
-- name: SNS
-  tag: sns
-  icon: comments
+- name: Docs
+  tag: docs
+  icon: memo
 
-- name: Mail
-  tag: mail
-  icon: envelope
+- name: Cloud
+  tag: cloud
+  icon: cloud
 
-- name: Patron
-  tag: patron
-  icon: comment-dollar
+- name: Dev
+  tag: dev
+  icon: terminal
+
+
