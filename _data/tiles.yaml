@@ -125,3 +125,24 @@
   tags:
     - dev
 
+# Network
+- name: Convallaria
+  url: 'https://192.168.39.254'
+  tags:
+    - network
+
+- name: RTX1300
+  url: 'http://192.168.100.1'
+  tags:
+    - network
+
+- name: CRS305
+  url: 'http://192.168.100.3'
+  tags:
+    - network
+
+- name: 'Aruba Instant On'
+  url: 'https://portal.arubainstanton.com'
+  img: 'img/arubainstanton.png'
+  tags:
+    - network

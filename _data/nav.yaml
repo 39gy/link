@@ -38,4 +38,6 @@
   tag: dev
   icon: terminal
 
-
+- name: Network
+  tag: network
+  icon: network-wired
