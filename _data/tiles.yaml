@@ -37,6 +37,7 @@
 
 - name: BOOK☆WALKER
   url: 'https://bookwalker.jp/'
+  img: 'img/bookwalker.jpg'
   tags:
     - book
 
@@ -81,11 +82,13 @@
 
 - name: HackMD
   url: 'https://hackmd.io'
+  img: 'img/hackmd.png'
   tags:
     - docs
 
 - name: Notion
   url: 'https://www.notion.so'
+  img: 'notion/notion.png'
   tags:
     - docs
 
