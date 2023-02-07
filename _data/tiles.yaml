@@ -17,7 +17,7 @@
   tags:
     - dev
 
-- name: firebase
+- name: Firebase
   url: 'http://console.firebase.google.com'
   img: 'img/firebase.svg'
   tags:
@@ -37,14 +37,14 @@
   tags:
     - image
 
-- name: fanbox
+- name: FANBOX
   url: 'https://www.fanbox.cc'
   img: 'img/pixivfanbox.png'
   tags:
     - image
     - patron
 
-- name: cloudinary
+- name: Cloudinary
   url: 'https://cloudinary.com/console'
   img: 'img/cloudinary.png'
   tags:
@@ -87,13 +87,13 @@
 
 # Mail
 - name: Gmail
-  url: 'https://gmail.com'
+  url: 'https://mail.google.com/mail/'
   img: 'img/gmail.svg'
   tags:
     - mail
 
 # Patron
-- name: Fantia
+- name: ファンティア
   url: 'https://fantia.jp'
   img: 'img/fantia.png'
   tags:
