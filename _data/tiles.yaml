@@ -1,4 +1,12 @@
 # SNS
+- name: Twitter
+  url: 'https://twitter.com'
+  img: 'img/twitter.svg'
+  bg_color: '#1da1f2'
+  txt_color: '#f5f8fa'
+  tags:
+    - sns
+
 - name: TweetDeck
   url: 'https://tweetdeck.twitter.com'
   img: 'img/twitter.svg'
@@ -126,6 +134,18 @@
     - dev
 
 # Network
+- name: NetMeister
+  url: 'http://nw-meister.jp/service/dashboard'
+  img: 'img/nw-meister.png'
+  tags:
+    - network
+
+- name: 'Aruba Instant On'
+  url: 'https://portal.arubainstanton.com'
+  img: 'img/arubainstanton.png'
+  tags:
+    - network
+
 - name: Convallaria
   url: 'https://192.168.39.254'
   img: 'img/nec.png'
@@ -141,17 +161,5 @@
 - name: CRS305
   url: 'http://192.168.100.3'
   img: 'img/mikurotik.png'
-  tags:
-    - network
-
-- name: 'Aruba Instant On'
-  url: 'https://portal.arubainstanton.com'
-  img: 'img/arubainstanton.png'
-  tags:
-    - network
-
-- name: NetMeister
-  url: 'http://nw-meister.jp/service/dashboard'
-  img: 'img/nw-meister.png'
   tags:
     - network
