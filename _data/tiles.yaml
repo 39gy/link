@@ -128,16 +128,19 @@
 # Network
 - name: Convallaria
   url: 'https://192.168.39.254'
+  img: 'img/nec.png'
   tags:
     - network
 
 - name: RTX1300
   url: 'http://192.168.100.1'
+  img: 'img/yamaha.png'
   tags:
     - network
 
 - name: CRS305
   url: 'http://192.168.100.3'
+  img: 'img/mikurotik.png'
   tags:
     - network
 
