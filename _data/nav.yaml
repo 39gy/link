@@ -28,7 +28,7 @@
 
 - name: Docs
   tag: docs
-  icon: memo
+  icon: pen
 
 - name: Cloud
   tag: cloud
